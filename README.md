@@ -28,9 +28,13 @@ Project Structure
 
 The project follows the standard Maven structure, so all the tests go in the *src/test/java* folder.  
 
+Cucumber
+------
+For more info around Cucumber, go to https://cucumber.io
+
 JUnit
 ------
-For more info around JUnit 4, go to https://github.com/junit-team/junit4/wiki.
+For more info around JUnit 4, go to https://github.com/junit-team/junit4/wiki
 
 Further Notes
 -------

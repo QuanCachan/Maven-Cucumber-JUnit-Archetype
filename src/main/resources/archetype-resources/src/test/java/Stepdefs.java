@@ -12,7 +12,7 @@ public class Stepdefs {
 
 	Superman superman = new Superman();
 	
-	@Given("^Superman met (.*) in the park$")
+	@Given("^Superman met \"(.*)\" in the park$")
 	public void Superman_met_in_the_park(String enemy) throws Throwable {
 		superman.catchEnemy(enemy);
 	}
@@ -22,7 +22,7 @@ public class Stepdefs {
 		superman.say(hour);
 	}
 	
-	@Then("^Superman flied upon (.*) and attacked him$")
+	@Then("^Superman flied upon \"(.*)\" and attacked him$")
 	public void Superman_flied_upon_and_attacked_him(String enemy) {
 		superman.defeatEnemy(enemy);
 	}
